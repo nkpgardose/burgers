@@ -18,21 +18,31 @@
   opacity: 1;
   transition: all 0.25s cubic-bezier(0.18, 0.89, 0.32, 1.28)
 }
-.burger--bouncy:hover .burger-layer {
-  margin-bottom: 8px;
+.burger--bouncy:hover .burger-layer,
+.burger--back:hover .burger-layer {
+  margin-bottom: 8px
 }
-.burger--bouncy.is-active .burger-layer {
+.burger--bouncy.is-active .burger-layer,
+.burger--back.is-active .burger-layer {
   position: absolute;
-  top: 20px;
+  top: 20px
 }
 .burger--bouncy.is-active > .-top {
   transform-origin: center;
-  transform: rotate(45deg);
+  transform: rotate(45deg)
 }
 .burger--bouncy.is-active > .-mid {
   opacity: 0;
 }
 .burger--bouncy.is-active > .-bot {
   transform-origin: center;
-  transform: rotate(-45deg);
+  transform: rotate(-45deg)
+}
+.burger--back.is-active > .-top {
+  transform-origin: left bottom;
+  transform: rotate(-45deg) scaleX(0.5)
+}
+.burger--back.is-active > .-bot {
+  transform-origin: left top;
+  transform: rotate(45deg) scaleX(0.5)
 }
