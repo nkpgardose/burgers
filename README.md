@@ -16,12 +16,14 @@ Check **burgers** kitchen sink [here](http://nkpgardose.github.io/burgers)
 Use modifiers for your desired burger behavior.
 
 ```html
-<!-- Toggles from burger to close symbol in bouncy effect -->
+<!-- toggles burger to close symbol when click event occur in bouncy effect -->
 <div class="burger burger--bouncy js-burger">
     <div class="burger-layer -top"></div>
     <div class="burger-layer -mid"></div>
     <div class="burger-layer -bot"></div>
 </div>
+...
+<script src="js/burgers.js" type="text/javascript" charset="utf-8"></script>
 ```
 
 ## License
