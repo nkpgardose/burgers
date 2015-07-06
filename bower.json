@@ -1,0 +1,24 @@
+{
+  "name": "burgerscss",
+  "version": "0.0.1",
+  "authors": [
+    "Neil Kim Gardose <nkpgardose@gmail.com>"
+  ],
+  "description": "because we love burgers",
+  "main": "css/burgers.css, js/burgers.js",
+  "keywords": [
+    "hamburger",
+    "burger",
+    "css",
+    "style"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nkpgardose/burgers",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
