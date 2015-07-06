@@ -1,0 +1,19 @@
+/* @nkpgardose - burgerscss, feel free to contribute because we need burgers
+ * NOTE: apply freely your own z-index on burger class.
+ *
+ * */
+.burger {
+  padding: 10px;
+  cursor: pointer;
+  -webkit-user-select: none;
+          user-select: none
+}
+.burger-layer {
+  width: 28px;
+  height: 4px;
+  margin-bottom: 4px;
+  background: rgb(51, 51, 51);
+  border-radius: 2px;
+  opacity: 1;
+  transition: all 0.25s cubic-bezier(0.18, 0.89, 0.32, 1.28)
+}
