@@ -74,5 +74,6 @@
   border-radius: 0 0 5px 5px;
 }
 .burger--realWithCheese.is-active .burger-layer {
-  margin-bottom: 5px;
+  position: inherit;
+  margin-bottom: -4px;
 }
