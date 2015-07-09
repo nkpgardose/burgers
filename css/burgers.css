@@ -6,8 +6,16 @@
   display: inline-block;
   padding: 10px;
   cursor: pointer;
+  background: none;
+  border: none;
   -webkit-user-select: none;
-          user-select: none
+          user-select: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none
+}
+.burger:focus {
+  outline: none;
 }
 .burger-layer {
   width: 28px;
@@ -20,6 +28,14 @@
 }
 .burger--realWithCheese .burger-layer {
   margin-bottom: 1px;
+}
+.burger--bouncy.is-active:after,
+.burger--back.is-active:after,
+.burger--forward.is-active:after {
+  content: "";
+  width: 28px;
+  height: 24px;
+  display: inline-block
 }
 .burger--bouncy:hover .burger-layer,
 .burger--back:hover .burger-layer,
