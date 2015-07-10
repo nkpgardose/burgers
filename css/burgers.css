@@ -10,9 +10,6 @@
   border: none;
   -webkit-user-select: none;
           user-select: none;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none
 }
 .burger:focus {
   outline: none;
