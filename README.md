@@ -5,7 +5,7 @@ Check **burgers** kitchen sink [here](http://nkpgardose.github.io/burgers)
 ### Usage
 ```html
 <!-- Easy to apply. Vanilla burger -->
-<div class="burger">
+<div class="burger" role="button">
     <div class="burger-layer"></div>
     <div class="burger-layer"></div>
     <div class="burger-layer"></div>
@@ -17,7 +17,7 @@ Use modifiers for your desired burger behavior.
 
 ```html
 <!-- toggles burger to close symbol when click event occur in bouncy effect -->
-<div class="burger burger--bouncy js-burger">
+<div class="burger burger--bouncy js-burger" role="button">
     <div class="burger-layer -top"></div>
     <div class="burger-layer -mid"></div>
     <div class="burger-layer -bot"></div>
