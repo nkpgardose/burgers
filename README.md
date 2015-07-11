@@ -2,6 +2,14 @@
 Check **burgers** kitchen sink [here](http://nkpgardose.github.io/burgers)
 > my collection of burgers that use style modifiers. Easy to apply burger because we :heart: :hamburger:
 
+### Install
+```
+$ git clone git@github.com:nkpgardose/burgers.git
+$ cd burgers
+$ bower install
+$ open index.html
+```
+
 ### Usage
 ```html
 <!-- Easy to apply. Vanilla burger -->
@@ -25,6 +33,13 @@ Use modifiers for your desired burger behavior.
 ...
 <script src="js/burgers.js" type="text/javascript" charset="utf-8"></script>
 ```
+
+### List of modifiers
+* bouncy ```.burger--bouncy```
+* back ```.burger--back```
+* forward ```.burger--forward```
+* chrome ```.burger--chrome```
+* real with cheese ```.burger--realWithCheese```
 
 ## License
 
