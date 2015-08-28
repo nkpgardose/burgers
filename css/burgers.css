@@ -9,7 +9,9 @@
   background: none;
   border: none;
   -webkit-user-select: none;
-          user-select: none
+          -moz-user-select: none;
+           -ms-user-select: none;
+               user-select: none
 }
 .burger:focus {
   outline: none
@@ -47,33 +49,45 @@
 }
 /* bouncy burger */
 .burger--bouncy.is-active > .-top {
-  transform-origin: center;
-  transform: rotate(45deg)
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg)
 }
 .burger--bouncy.is-active > .-mid {
   opacity: 0
 }
 .burger--bouncy.is-active > .-bot {
-  transform-origin: center;
-  transform: rotate(-45deg)
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg)
 }
 /* back burger */
 .burger--back.is-active > .-top {
-  transform-origin: left bottom;
-  transform: rotate(-45deg) scaleX(0.5)
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+  -webkit-transform: rotate(-45deg) scaleX(0.5);
+          transform: rotate(-45deg) scaleX(0.5)
 }
 .burger--back.is-active > .-bot {
-  transform-origin: left top;
-  transform: rotate(45deg) scaleX(0.5)
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  -webkit-transform: rotate(45deg) scaleX(0.5);
+          transform: rotate(45deg) scaleX(0.5)
 }
 /* forward burger */
 .burger--forward.is-active > .-top {
-  transform-origin: right bottom;
-  transform: rotate(45deg) scaleX(0.5)
+  -webkit-transform-origin: right bottom;
+          transform-origin: right bottom;
+  -webkit-transform: rotate(45deg) scaleX(0.5);
+          transform: rotate(45deg) scaleX(0.5)
 }
 .burger--forward.is-active > .-bot {
-  transform-origin: right top;
-  transform: rotate(-45deg) scaleX(0.5)
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+  -webkit-transform: rotate(-45deg) scaleX(0.5);
+          transform: rotate(-45deg) scaleX(0.5)
 }
 /* chrome burger */
 .burger--chrome {
